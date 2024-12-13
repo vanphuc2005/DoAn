@@ -1,0 +1,94 @@
+* {
+    font-family: 'Roboto';
+}
+/** Top Bar **/
+.top-bar{
+    background: #085690;
+}
+.navbar-nav .nav-link {
+    color: #085690;
+}
+
+.custom-dropdown {
+    position: absolute;
+    z-index: 1050; /* Đảm bảo menu thả xuống nằm trên các thành phần khác */
+    left: 0;
+    top: 100%;
+    display: none;
+}
+
+.nav-item:hover .custom-dropdown {
+    display: block; 
+}
+/*  */
+.gradient {
+    background: linear-gradient(to right, #13e3db, #5d80f3);
+    color: white;
+    padding: 1px;
+}
+.content-section .list-circle{
+    list-style-type: circle;
+}
+.image-section{
+    flex: 1;
+}
+.image-section img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.button-container {
+    margin-top: 20px;
+}
+.button-container button {
+    background: #085690;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.button-container button i {
+    margin-right: 10px;
+}
+.button-container button:hover{
+   background:red;
+}
+
+.button-car button{
+    background: #085690;
+    color: white;
+}
+.button-car button:hover{
+    background: red;
+}
+/* Shop */
+.shop .row img {
+    transition: transform 0.3s ease; /* Hiệu ứng mượt trong 0.3 giây */
+    object-fit: cover;
+}
+
+.shop .row img:hover {
+    transform: scale(1.1); /* Phóng to ảnh lên 120% */
+}
+/*  */
+.develop{
+    color: #085690;
+    background: white;
+}
+.develop .content{
+    color: #085690;
+}
+.develop .content-develop{
+    color: #000;
+}
+/* FOOTER */
+footer{
+    background: #085690;
+}
+footer .content-footer{
+    font-size: 20px;
+    margin: 0 0 25px;
+}
